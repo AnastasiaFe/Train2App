@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.nure.fedorenko.kidstim.activity.AddChildActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailLayout"
+            style="@style/TextInputStyle"
+            android:layout_marginTop="30dp"
+            app:errorTextAppearance="@style/error">
+
+            <EditText
+                android:id="@+id/childEmailEditText"
+                style="@style/RegisterEditTextStyle"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/lo2"
+                android:drawableStart="@drawable/lo2"
+                android:hint="@string/prompt_email"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordLayout"
+            style="@style/TextInputStyle"
+            app:errorTextAppearance="@style/error">
+
+            <EditText
+                android:id="@+id/childPasswordEditText"
+                style="@style/RegisterEditTextStyle"
+                android:drawableLeft="@drawable/pas1"
+                android:drawableStart="@drawable/pas1"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nameLayout"
+            style="@style/TextInputStyle"
+            app:errorTextAppearance="@style/error">
+
+            <EditText
+                android:id="@+id/childNameEditText"
+                style="@style/RegisterEditTextStyle"
+                android:hint="@string/name"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/surnameLayout"
+            style="@style/TextInputStyle"
+            android:layout_marginBottom="5dp"
+            app:errorTextAppearance="@style/error">
+
+            <EditText
+                android:id="@+id/childSurnameEditText"
+                style="@style/RegisterEditTextStyle"
+                android:hint="@string/surname"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/maleRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/femaleRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_weight="1"
+                android:text="@string/female" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/openCalendarButton"
+                style="@style/BorderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/select_birth_date" />
+
+            <TextView
+                android:id="@+id/birthTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/uploadImageButton"
+                style="@style/BorderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/upload_image" />
+
+            <ImageView
+                android:id="@+id/uploadedImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/child_image" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addChildButton"
+            style="@style/AccentButtonStyle"
+            android:text="@string/add" />
+    </LinearLayout>
+</ScrollView>

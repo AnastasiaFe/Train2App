@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">KidStim</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password should have at least 6 symbols</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="children">Children</string>
+    <string name="confirm">Password confirmation</string>
+    <string name="error_invalid_name">Name should not be empty</string>
+    <string name="error_invalid_surname">Surname should not be empty</string>
+    <string name="error_authorization">Authorization error! Please check your credentials!</string>
+    <string name="error_registration">Error during registration occurred!</string>
+    <string name="passwords_mismatch">Passwords mismatch</string>
+    <string name="title_activity_parent_main">ParentMainActivity</string>
+    <string name="points">Points</string>
+    <string name="child_image">Child image</string>
+    <string name="upload_image">Upload image</string>
+    <string name="add">Add</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="select_birth_date">Select birthday</string>
+    <string name="tasks">Tasks</string>
+    <string name="rewards">Rewards</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="image_saving_error">Error during image saving!</string>
+    <string name="description">Description</string>
+    <string name="expiration_date">Select expiration date</string>
+    <string name="error_invalid_desc">Description should not be empty</string>
+    <string name="error_invalid_points">Points should be an integer value</string>
+    <string name="ok">OK</string>
+    <string name="select_picture">Select picture</string>
+    <string name="select_children">Select children</string>
+    <string name="task_deleting">Task deleting</string>
+    <string name="task_delete_confirmation">Are you sure you want to delete the task</string>
+    <string name="cancel">Cancel</string>
+    <string name="reward_deleting">Reward deleting</string>
+    <string name="reward_delete_confirmation">Are you sure you want to delete the reward?</string>
+    <string name="id">id</string>
+    <string name="error_reward_saving">Error during reward saving!</string>
+    <string name="error_task_saving">Error during task saving!</string>
+    <string name="error_parent_retrieving">Error during parent retrieving!</string>
+    <string name="prefs">MyPrefs</string>
+    <string name="user">User</string>
+    <string name="error_reward_retrieving">Error during reward retrieving!</string>
+    <string name="error_task_retrieving">Error during task retrieving!</string>
+    <string name="save">Save</string>
+    <string name="mark_completed">Completed</string>
+    <string name="task_completion">Status changing</string>
+    <string name="completion_confirmation">Task status will be changed. Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="logout">Log out</string>
+    <string name="thank_for_registration">Thank you for registration!</string>
+    <string name="error_parent_update">Error during parent updating!</string>
+    <string name="error_image_upload">Error during image uploading!</string>
+    <string name="profile">My profile</string>
+    <string name="my_children">My children</string>
+    <string name="all">ALL</string>
+    <string name="not_enough_points">You have no enough points to get this reward!</string>
+    <string name="reward_was_requested">Reward was successfully requested</string>
+    <string name="error_logout">Error during logout!</string>
+    <string name="error_child_retrieve">Error during child retrieving!</string>
+    <string name="error_rewards_by_child">Error during retrieving rewards by child!</string>
+    <string-array name="task_statuses">
+        <item>All</item>
+        <item>Created</item>
+        <item>Completed</item>
+    </string-array>
+    <string name="request">Request</string>
+
+    <string-array name="reward_statuses">
+        <item>All</item>
+        <item>Created</item>
+        <item>Received</item>
+        <item>Requested</item>
+    </string-array>
+</resources>

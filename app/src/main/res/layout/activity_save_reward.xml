@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="ua.nure.fedorenko.kidstim.activity.SaveRewardActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/rewardDescLayout"
+        style="@style/TextInputStyle"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/rewardDescEditText"
+            style="@style/RegisterEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/rewardPointsLayout"
+        style="@style/TextInputStyle"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/rewardPointsEditText"
+            style="@style/RegisterEditTextStyle"
+            android:hint="@string/points"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/addRewardButton"
+        style="@style/AccentButtonStyle"
+        android:text="@string/save" />
+</LinearLayout>

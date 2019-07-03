@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "915417501594",
+    "firebase_url": "https://ua-nure-fedorenko-kidstim.firebaseio.com",
+    "project_id": "ua-nure-fedorenko-kidstim",
+    "storage_bucket": "ua-nure-fedorenko-kidstim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915417501594:android:c5a2a09fa9d781d3",
+        "android_client_info": {
+          "package_name": "ua.nure.fedorenko.kidstim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915417501594-3i6mi0udpng7tn7ug9stq387e3dcrt2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE_dFa6DrLb8IhxKFxDqG5ODUR7fU9uLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

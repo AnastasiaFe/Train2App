@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="ua.nure.fedorenko.kidstim.activity.RegisterActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailLayout"
+        style="@style/TextInputStyle"
+        android:layout_marginTop="30dp"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            style="@style/RegisterEditTextStyle"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/lo2"
+            android:drawableStart="@drawable/lo2"
+            android:hint="@string/prompt_email"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordLayout"
+        style="@style/TextInputStyle"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            style="@style/RegisterEditTextStyle"
+            android:drawableLeft="@drawable/pas1"
+            android:drawableStart="@drawable/pas1"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nameLayout"
+        style="@style/TextInputStyle"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            style="@style/RegisterEditTextStyle"
+            android:hint="@string/name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/surnameLayout"
+        style="@style/TextInputStyle"
+        android:layout_marginBottom="5dp"
+        app:errorTextAppearance="@style/error">
+
+        <EditText
+            android:id="@+id/surnameEditText"
+            style="@style/RegisterEditTextStyle"
+            android:hint="@string/surname"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/registerButton"
+        style="@style/AccentButtonStyle"
+        android:text="@string/register" />
+</LinearLayout>
+</ScrollView>
